@@ -5,3 +5,5 @@ edition = "2021"
 
 [dependencies]
 poise = "0.6.1"
+tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread"] }
+diesel = { version = "2.2.2", features = ["sqlite", "r2d2"] }
